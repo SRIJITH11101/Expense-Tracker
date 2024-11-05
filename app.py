@@ -61,7 +61,10 @@ class SignUpForm(Form):
         ]
     )
 
-    
+    confirm = PasswordField('Confirm Password', [
+        validators.DataRequired(),
+        validators.EqualTo('password', message='Passwords do not match')
+    ])
 
 
 @app.route('/signup', methods=['GET', 'POST'])
