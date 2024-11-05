@@ -83,5 +83,8 @@ Open [http://localhost:5000](http://localhost:5000) to view it in the browser.
 <p align="center">
  <img src="./static/line.png">
 </p>
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> c44bc50808c9d65fc2547e620d767a9d27fcf2ae
